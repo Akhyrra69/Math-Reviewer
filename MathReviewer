@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Concepts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .topic {
+            border-bottom: 1px solid #ccc;
+            padding: 15px 0;
+        }
+        .topic img {
+            max-width: 100px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .learn-more-content {
+            display: none;
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+            margin-top: 10px;
+        }
+        .learn-more-btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .learn-more-btn:hover {
+            background-color: #2980b9;
+        }
+        .video-placeholder {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-size: 16px;
+        }
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    background-color: #ddd;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Math Concepts: Prime Numbers, Fractions, Decimals, and More</h2>
+
+        <!-- Topic 1: Differentiate Prime from Composite Numbers -->
+        <div class="topic">
+            <h3>1. Differentiate Prime from Composite Numbers</h3>
+            <p>
+                A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
+                Example: 5 is prime because its only divisors are 1 and 5.
+                A composite number is a number greater than 1 that has more than two divisors.
+                Example: 6 is composite because its divisors are 1, 2, 3, and 6.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('prime-composite')">Learn More</button>
+            <div id="learn-more-prime-composite" class="learn-more-content">
+                <h4>Prime vs. Composite Numbers:</h4>
+                <ul>
+                    <li>Prime numbers: 2, 3, 5, 7, 11, 13...</li>
+                    <li>Composite numbers: 4, 6, 8, 9, 10, 12...</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+
+            </video>
+        </div>
+</div>
+            </div>
+
+
+        <!-- Topic 2: Identify the Factors of a Given Number Up to 100 -->
+        <div class="topic">
+            <h3>2. Identify the Factors of a Given Number Up to 100</h3>
+            <p>
+                Factors are the numbers that divide evenly into a given number. For example, the factors of 12 are 1, 2, 3, 4, 6, and 12.
+                <br>Example for 30: Factors of 30 are 1, 2, 3, 5, 6, 10, 15, 30.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('factors')">Learn More</button>
+            <div id="learn-more-factors" class="learn-more-content">
+                <h4>Steps to Find Factors:</h4>
+                <ol>
+                    <li>Divide the number by integers starting from 1.</li>
+                    <li>If there is no remainder, the number is a factor.</li>
+                </ol>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 3: Write a Number as a Product of Its Prime Numbers -->
+        <div class="topic">
+            <h3>3. Write a Number as a Product of Its Prime Numbers</h3>
+            <p>
+                To express a number as a product of primes, find its prime factorization.
+                Example: The prime factorization of 18 is 2 × 3 × 3, or 2 × 3².
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('prime-factorization')">Learn More</button>
+            <div id="learn-more-prime-factorization" class="learn-more-content">
+                <h4>Prime Factorization:</h4>
+                <p>For 36, the prime factorization is:</p>
+                <ol>
+                    <li>36 ÷ 2 = 18 (2 is prime)</li>
+                    <li>18 ÷ 2 = 9 (2 is prime)</li>
+                    <li>9 ÷ 3 = 3 (3 is prime)</li>
+                    <li>3 ÷ 3 = 1 (prime factorization: 2 × 2 × 3 × 3)</li>
+                </ol>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 4: Find the GCF of Two Numbers Using Various Methods -->
+        <div class="topic">
+            <h3>4. Find the GCF of Two Numbers Using Listing, Prime Factorization, and Continuous Division</h3>
+            <p>
+                The greatest common factor (GCF) of two numbers is the largest number that divides both of them.
+                Example: GCF of 12 and 18 is 6.
+                <br>Methods: Listing factors, using prime factorization, or continuous division.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('gcf')">Learn More</button>
+            <div id="learn-more-gcf" class="learn-more-content">
+                <h4>Finding the GCF:</h4>
+                <ol>
+                    <li><strong>Listing Method:</strong> List the factors of both numbers and find the largest common factor.</li>
+                    <li><strong>Prime Factorization:</strong> Factor both numbers into primes and take the common primes.</li>
+                    <li><strong>Continuous Division:</strong> Divide both numbers by common factors until no further division is possible.</li>
+                </ol>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 5: Find the LCM of Two Numbers Using Various Methods -->
+        <div class="topic">
+            <h3>5. Find the LCM of Two Numbers Using Listing, Prime Factorization, and Continuous Division</h3>
+            <p>
+                The least common multiple (LCM) of two numbers is the smallest number that is a multiple of both.
+                Example: LCM of 6 and 8 is 24.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('lcm')">Learn More</button>
+            <div id="learn-more-lcm" class="learn-more-content">
+                <h4>Finding the LCM:</h4>
+                <ol>
+                    <li><strong>Listing Method:</strong> List the multiples of each number and find the smallest common one.</li>
+                    <li><strong>Prime Factorization:</strong> Find the prime factorization of both numbers and take the highest power of each prime.</li>
+                    <li><strong>Continuous Division:</strong> Divide both numbers by common prime factors until no further division is possible, then multiply the divisors.</li>
+                </ol>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 6: Identify Proper and Improper Fractions and Mixed Numbers -->
+        <div class="topic">
+            <h3>6. Identify Proper and Improper Fractions and Mixed Numbers</h3>
+            <p>
+                A proper fraction has a numerator smaller than its denominator. Example: 3/4.
+                An improper fraction has a numerator greater than or equal to its denominator. Example: 7/4.
+                A mixed number combines a whole number and a proper fraction. Example: 1 3/4.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('proper-improper-mixed')">Learn More</button>
+            <div id="learn-more-proper-improper-mixed" class="learn-more-content">
+                <h4>Types of Fractions:</h4>
+                <ul>
+                    <li>Proper Fraction: 3/4</li>
+                    <li>Improper Fraction: 7/4</li>
+                    <li>Mixed Number: 1 3/4</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video6.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 7: Visualizing and Representing Fractions -->
+        <div class="topic">
+            <h3>7. Visualizing and Representing Fractions Less Than One, Equal to One, and Greater Than One</h3>
+            <p>
+                Fractions can be represented visually using models like number lines, pie charts, and bars. 
+                Example: 1/2 represents half of a whole, 2/1 represents 2 whole parts.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('visualizing-fractions')">Learn More</button>
+            <div id="learn-more-visualizing-fractions" class="learn-more-content">
+                <h4>Fraction Visualization:</h4>
+                <p>Examples of different types of fractions:</p>
+                <ul>
+                    <li>1/4 is less than 1.</li>
+                    <li>1/1 is equal to 1.</li>
+                    <li>3/2 is greater than 1.</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video7.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+                <!-- Topic 8: Change Improper Fractions to Mixed Numbers and Vice Versa -->
+        <div class="topic">
+            <h3>8. Change Improper Fractions to Mixed Numbers and Vice Versa</h3>
+            <p>
+                To convert an improper fraction to a mixed number, divide the numerator by the denominator. The quotient is the whole number, and the remainder is the numerator of the fraction.
+                Example: 7/3 = 2 1/3.
+                To convert a mixed number to an improper fraction, multiply the whole number by the denominator and add the numerator.
+                Example: 2 1/4 = 9/4.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('improper-mixed')">Learn More</button>
+            <div id="learn-more-improper-mixed" class="learn-more-content">
+                <h4>Converting Improper Fractions to Mixed Numbers:</h4>
+                <ul>
+                    <li>7/3 = 2 1/3 (divide 7 by 3)</li>
+                </ul>
+                <h4>Converting Mixed Numbers to Improper Fractions:</h4>
+                <ul>
+                    <li>2 1/4 = 9/4 (2 × 4 + 1 = 9)</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video8.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>            </div>
+        </div>
+
+        <!-- Topic 9: Change Fractions to Lowest Terms -->
+        <div class="topic">
+            <h3>9. Change Fractions to Lowest Term</h3>
+            <p>
+                To simplify a fraction, divide both the numerator and denominator by their greatest common factor (GCF).
+                Example: 12/16 can be simplified by dividing both by 4, resulting in 3/4.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('lowest-term')">Learn More</button>
+            <div id="learn-more-lowest-term" class="learn-more-content">
+                <h4>Steps to Simplify a Fraction:</h4>
+                <ol>
+                    <li>Find the GCF of the numerator and denominator.</li>
+                    <li>Divide both the numerator and denominator by the GCF.</li>
+                </ol>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video9.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 10: Visualizing Addition and Subtraction of Similar Fractions -->
+        <div class="topic">
+            <h3>10. Visualizing Addition and Subtraction of Similar Fractions</h3>
+            <p>
+                To add or subtract fractions with the same denominator, simply add or subtract the numerators, keeping the denominator the same.
+                Example: 3/8 + 2/8 = 5/8.
+                Example: 7/10 - 3/10 = 4/10 (which simplifies to 2/5).
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('similar-fractions')">Learn More</button>
+            <div id="learn-more-similar-fractions" class="learn-more-content">
+                <h4>Steps to Add or Subtract Similar Fractions:</h4>
+                <ul>
+                    <li>Simply add or subtract the numerators.</li>
+                    <li>Keep the denominator the same.</li>
+                </ul>
+         <div class="video-wrapper">
+            <video controls>
+                <source src="video10.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 11: Perform Addition and Subtraction of Dissimilar Fractions or Whole Numbers -->
+        <div class="topic">
+            <h3>11. Perform Addition and Subtraction of Dissimilar Fractions or Whole Numbers</h3>
+            <p>
+                When adding or subtracting fractions with different denominators, first find the least common denominator (LCD).
+                Example: 1/3 + 2/5 = (5 + 6)/15 = 11/15.
+                If working with whole numbers and fractions, convert the whole number to a fraction.
+                Example: 3 + 1/4 = 12/4 + 1/4 = 13/4.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('dissimilar-fractions')">Learn More</button>
+            <div id="learn-more-dissimilar-fractions" class="learn-more-content">
+                <h4>Steps for Adding/Subtracting Dissimilar Fractions:</h4>
+                <ul>
+                    <li>Find the LCD of the two fractions.</li>
+                    <li>Convert fractions to have the same denominator.</li>
+                    <li>Add or subtract the numerators.</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video11.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 12: Solve Word Problems Involving Addition and/or Subtraction of Fractions -->
+        <div class="topic">
+            <h3>12. Solve Word Problems Involving Addition and/or Subtraction of Fractions</h3>
+            <p>
+                Word problems can involve the addition or subtraction of fractions. First, identify the fractions involved, then proceed with the addition or subtraction as needed.
+                Example: If 3/4 of a pizza is eaten, and 1/8 more is eaten, how much pizza is left? 3/4 + 1/8 = 7/8 eaten, so 1/8 is left.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('word-problems')">Learn More</button>
+            <div id="learn-more-word-problems" class="learn-more-content">
+                <h4>Example Word Problem:</h4>
+                <p>If you have 2/5 of a chocolate bar and you eat 1/5 of it, how much chocolate is left?</p>
+                <ul>
+                    <li>2/5 - 1/5 = 1/5 left.</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video12.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 13: Visualize Decimal Numbers Using Models Like Blocks, Grids, Number Lines, and Money -->
+        <div class="topic">
+            <h3>13. Visualize Decimal Numbers Using Models Like Blocks, Grids, Number Lines, and Money</h3>
+            <p>
+                Decimal numbers can be visualized in various ways, such as using grids, blocks, number lines, or even money.
+                Example: 0.5 can be visualized as half of a number line or as 50 cents in money.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('visualizing-decimals')">Learn More</button>
+            <div id="learn-more-visualizing-decimals" class="learn-more-content">
+                <h4>Examples of Visualizing Decimals:</h4>
+                <ul>
+                    <li>0.25 as a quarter on a money line.</li>
+                    <li>0.5 as a half on a number line.</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video13.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 14: Rename Decimal Numbers to Fractions Whose Denominators Are Factors of 10 and 100 -->
+        <div class="topic">
+            <h3>14. Rename Decimal Numbers to Fractions Whose Denominators Are Factors of 10 and 100</h3>
+            <p>
+                Decimal numbers can be written as fractions where the denominator is a factor of 10 or 100.
+                Example: 0.75 = 75/100, which simplifies to 3/4.
+                Example: 0.4 = 4/10.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('decimal-to-fraction')">Learn More</button>
+            <div id="learn-more-decimal-to-fraction" class="learn-more-content">
+                <h4>Decimal to Fraction Conversion:</h4>
+                <ul>
+                    <li>0.6 = 6/10 (simplifies to 3/5).</li>
+                    <li>0.25 = 25/100 (simplifies to 1/4).</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video14.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 15: Rename Fractions Whose Denominators Are Factors of 10 and 100 in Decimal Numbers -->
+        <div class="topic">
+            <h3>15. Rename Fractions Whose Denominators Are Factors of 10 and 100 in Decimal Numbers</h3>
+            <p>
+                Fractions with denominators of 10 or 100 can be renamed as decimal numbers.
+                Example: 3/10 = 0.3, and 7/100 = 0.07.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('fraction-to-decimal')">Learn More</button>
+            <div id="learn-more-fraction-to-decimal" class="learn-more-content">
+                <h4>Fraction to Decimal Conversion:</h4>
+                <ul>
+                    <li>1/10 = 0.1</li>
+                    <li>3/100 = 0.03</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video15.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 16: Give the Place Value of a Digit of a Given Decimal Number -->
+        <div class="topic">
+            <h3>16. Give the Place Value of a Digit of a Given Decimal Number</h3>
+            <p>
+                The place value of a digit in a decimal number is based on its position. For example, in 3.45, the place value of 4 is 4 tenths (0.4) and the place value of 5 is 5 hundredths (0.05).
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('place-value')">Learn More</button>
+            <div id="learn-more-place-value" class="learn-more-content">
+                <h4>Place Value Examples:</h4>
+                <ul>
+                    <li>In 3.74, the place value of 7 is 7 tenths.</li>
+                    <li>In 5.23, the place value of 3 is 3 hundredths.</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video16.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+
+        <!-- Topic 17: Read and Write Decimal Numbers Through Hundredths -->
+        <div class="topic">
+            <h3>17. Read and Write Decimal Numbers Through Hundredths</h3>
+            <p>
+                Decimal numbers through hundredths can be read and written as the value of the digits in their place values.
+                Example: 0.83 is read as "eighty-three hundredths" or written as 83/100.
+            </p>
+            <button class="learn-more-btn" onclick="toggleLearnMore('read-write-decimals')">Learn More</button>
+            <div id="learn-more-read-write-decimals" class="learn-more-content">
+                <h4>Reading and Writing Decimals:</h4>
+                <ul>
+                    <li>0.56 is read as "fifty-six hundredths".</li>
+                    <li>1.89 is read as "one and eighty-nine hundredths".</li>
+                </ul>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="video17.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleLearnMore(topic) {
+            const content = document.getElementById('learn-more-' + topic);
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
+
+        
+    </div>
+
+    <script>
+        function toggleLearnMore(topic) {
+            const content = document.getElementById('learn-more-' + topic);
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
